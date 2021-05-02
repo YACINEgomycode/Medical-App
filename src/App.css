@@ -1,38 +1,64 @@
-.App {
-  text-align: center;
+body {
+  background: url('./media/wall.jpg');
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.title {
+  font-size: 120px;
+    color:#E81123;
+    font-family: 'Anton', sans-serif;
+    font-weight:bold;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.title1{
+  color:#E81123;
+  font-family: 'Anton', sans-serif;
+  font-size: 70px;
+  font-weight:bold;
+  padding-bottom:15%
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.homeMenu{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  position: absolute;
+  left: 200px;
+  top: 200px;
+ }
 
-.App-link {
-  color: #61dafb;
-}
+ .buttons{
+   display: flex;
+   justify-content: space-between
+ }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+ .homeButton{
+  background-color:#E81123 !important;
+  height: 40px;
+  width: 178px;
+ }
+ .liste{
+  color:#E81123;
+  font-family: 'Anton', sans-serif;
+  font-size: 70px;
+  font-weight:bold;
+  padding-bottom:5%;
+  padding-top:5%;
+  text-align: center;
 }
+.retour{
+  display: flex;
+    justify-content: center;
+}
+.bas{display: flex;
+  flex-direction: column;
+  align-items: center;}
+  .prog{
+    width:50%;
+    padding-bottom: 13px;
+  }
+  .femmehommebtns{display: flex;
+    justify-content: space-around;
+    align-items: center;
+  padding: 15px;}
